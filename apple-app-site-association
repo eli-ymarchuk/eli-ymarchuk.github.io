@@ -1,0 +1,21 @@
+{
+   "applinks":{
+      "apps":[
+         
+      ],
+      "details":[
+         {
+            "appID":"F74JE228QW.com.appFlip.example",
+            "paths":[
+               "/linkAccount"
+            ]
+         },
+         {
+            "appID":"F74JE228QW.com.appFlip.testTool",
+            "paths":[
+               "/returnLink"
+            ]
+         }
+      ]
+   }
+}
