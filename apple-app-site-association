@@ -5,16 +5,12 @@
       ],
       "details":[
          {
-            "appID":"F74JE228QW.com.woodland.MySafe",
-            "paths":[
-               "/account/v4"
-            ]
-         },
-         {
-            "appID":"F74JE228QW.com.woodland.MySecure",
-            "paths":[
-               "/account/v4"
-            ]
+            "appIDs": ["F74JE228QW.com.woodland.MySafe", "F74JE228QW.com.woodland.MySecure"],
+            "components": [
+              {
+                "/": "/account/v4"
+              }
+            ]  
          }
       ]
    }
