@@ -5,11 +5,11 @@
       ],
       "details":[
          {
-            "appID":"F74JE228QW.com.woodland.MySafe",
-            "appIDs": ["F74JE228QW.com.woodland.MySafe"],
+            "appIDs": ["F74JE228QW.com.woodland.MySafe", "F74JE228QW.com.woodland.MySecure"],
             "paths":[
                "/account/v4",
-               "/account/v2"
+               "/account/v2",
+               "/account/v1"
             ],
             "components": [
               {
@@ -20,23 +20,6 @@
               },
               {
                 "/": "/account/v2"
-              }
-            ]
-         },
-         {
-            "appID":"F74JE228QW.com.woodland.MySecure",
-            "appIDs": ["F74JE228QW.com.woodland.MySecure"],
-            "paths":[
-               "/account/v4",
-               "/account/v3",
-               "/account/v1"
-            ],
-            "components": [
-              {
-                "/": "/account/v4"
-              },
-              {
-                "/": "/account/v1"
               }
             ]
          }
