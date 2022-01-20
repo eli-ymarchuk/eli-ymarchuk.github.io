@@ -5,15 +5,15 @@
       ],
       "details":[
          {
-            "appID":"F74JE228QW.com.appFlip.example",
+            "appID":"F74JE228QW.com.woodland.MySafe",
             "paths":[
-               "/linkAccount"
+               "/account/v4"
             ]
          },
          {
-            "appID":"F74JE228QW.com.appFlip.testTool",
+            "appID":"F74JE228QW.com.woodland.MySecure",
             "paths":[
-               "/returnLink"
+               "/account/v4"
             ]
          }
       ]
