@@ -1,52 +1,45 @@
 {
-  "applinks": {
-    "apps": [
-
-    ],
-    "details": [
-      {
-        "appID": "F74JE228QW.com.woodland.MySafe",
-        "paths": [
-          "/linkAccount",
-          "/d/change-password",
-          "/d/settings/privacy/active-sessions"
-        ],
-        "appIDs": ["F74JE228QW.com.woodland.MySafe"],
-        "components": [
-          {
-            "/": "/linkAccount",
-            "comment": "Matches any URL whose path starts is /linkAccount"
-          },
-          {
-            "/": "/d/change-password",
-            "comment": "Matches any URL whose path starts is /d/change-password"
-          },
-          {
-            "/": "/d/settings/privacy/active-sessions",
-            "comment": "Matches any URL whose path starts is /d/settings/privacy/active-sessions"
-          }
-        ]
-      },
-      {
-        "appID": "F74JE228QW.com.woodland.MySecure",
-        "paths": [
-          "/linkAccount",
-          "/d/change-password",
-          "/d/settings/privacy/active-sessions"
-        ],
-        "appIDs": ["F74JE228QW.com.woodland.MySecure"],
-        "components": [
-          {
-            "/": "/linkAccount"
-          },
-          {
-            "/": "/d/change-password"
-          },
-          {
-            "/": "/d/settings/privacy/active-sessions"
-          }
-        ]
-      }
-    ]
-  }
+   "applinks":{
+      "apps":[
+         
+      ],
+      "details":[
+         {
+            "appID":"F74JE228QW.com.woodland.MySafe",
+            "paths":[
+               "/account/v4",
+               "/account/v2"
+            ],
+            "appIDs": ["F74JE228QW.com.woodland.MySafe"],
+            "components": [
+              {
+                "/": "/account/v4"
+              },
+              {
+                "/": "/account/v3"
+              },
+              {
+                "/": "/account/v2"
+              }
+            ]
+         },
+         {
+            "appID":"F74JE228QW.com.woodland.MySecure",
+            "paths":[
+               "/account/v4",
+               "/account/v3",
+               "/account/v1"
+            ],
+            "appIDs": ["F74JE228QW.com.woodland.MySecure"],
+            "components": [
+              {
+                "/": "/account/v4"
+              },
+              {
+                "/": "/account/v1"
+              }
+            ]
+         }
+      ]
+   }
 }
